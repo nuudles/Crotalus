@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Crotalus.svg?style=flat)](http://cocoapods.org/pods/Crotalus)
 [![License](https://img.shields.io/cocoapods/l/Crotalus.svg?style=flat)](http://cocoapods.org/pods/Crotalus)
 [![Platform](https://img.shields.io/cocoapods/p/Crotalus.svg?style=flat)](http://cocoapods.org/pods/Crotalus)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Crotalus is an convenient and fast approach to create `AttributedString` in Swift. This library is inspired by [colorize](https://github.com/fazibear/colorize) which is a ruby gem colorize string.
 
@@ -25,11 +26,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
+
 Crotalus is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "Crotalus"
+```
+
+### Carthage
+
+Crotalus is also compatible with [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your Cartfile:
+
+```
+github "Draveness/Crotalus"
 ```
 
 ## Author

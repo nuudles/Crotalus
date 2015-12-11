@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30696E3A1C1B5F130011E856 /* Crotalus.h in Headers */ = {isa = PBXBuildFile; fileRef = 30696E391C1B5F130011E856 /* Crotalus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30696E461C1B5F480011E856 /* Crotalus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30696E431C1B5F480011E856 /* Crotalus.swift */; };
+		30696E471C1B5F480011E856 /* String+Crotalus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30696E441C1B5F480011E856 /* String+Crotalus.swift */; };
+		30696E4A1C1B5F870011E856 /* Crotalus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30696E431C1B5F480011E856 /* Crotalus.swift */; };
+		30696E4B1C1B5F870011E856 /* String+Crotalus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30696E441C1B5F480011E856 /* String+Crotalus.swift */; };
+		30696E4E1C1B5F870011E856 /* Crotalus.h in Headers */ = {isa = PBXBuildFile; fileRef = 30696E391C1B5F130011E856 /* Crotalus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30696E361C1B5F130011E856 /* Crotalus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Crotalus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30696E391C1B5F130011E856 /* Crotalus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crotalus.h; sourceTree = "<group>"; };
+		30696E3B1C1B5F130011E856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30696E431C1B5F480011E856 /* Crotalus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crotalus.swift; sourceTree = "<group>"; };
+		30696E441C1B5F480011E856 /* String+Crotalus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Crotalus.swift"; sourceTree = "<group>"; };
+		30696E531C1B5F870011E856 /* Crotalus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Crotalus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30696E541C1B5F880011E856 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "/Volumes/Storage/Projects/Nuudles/OpenSource/Crotalus/Info-tvOS.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30696E321C1B5F130011E856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30696E4C1C1B5F870011E856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30696E2C1C1B5F130011E856 = {
+			isa = PBXGroup;
+			children = (
+				30696E411C1B5F480011E856 /* Classes */,
+				30696E381C1B5F130011E856 /* Crotalus */,
+				30696E371C1B5F130011E856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30696E371C1B5F130011E856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30696E361C1B5F130011E856 /* Crotalus.framework */,
+				30696E531C1B5F870011E856 /* Crotalus.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30696E381C1B5F130011E856 /* Crotalus */ = {
+			isa = PBXGroup;
+			children = (
+				30696E391C1B5F130011E856 /* Crotalus.h */,
+				30696E3B1C1B5F130011E856 /* Info.plist */,
+				30696E541C1B5F880011E856 /* Info-tvOS.plist */,
+			);
+			path = Crotalus;
+			sourceTree = "<group>";
+		};
+		30696E411C1B5F480011E856 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30696E431C1B5F480011E856 /* Crotalus.swift */,
+				30696E441C1B5F480011E856 /* String+Crotalus.swift */,
+			);
+			name = Classes;
+			path = Pod/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30696E331C1B5F130011E856 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30696E3A1C1B5F130011E856 /* Crotalus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30696E4D1C1B5F870011E856 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30696E4E1C1B5F870011E856 /* Crotalus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30696E351C1B5F130011E856 /* Crotalus-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30696E3E1C1B5F130011E856 /* Build configuration list for PBXNativeTarget "Crotalus-iOS" */;
+			buildPhases = (
+				30696E311C1B5F130011E856 /* Sources */,
+				30696E321C1B5F130011E856 /* Frameworks */,
+				30696E331C1B5F130011E856 /* Headers */,
+				30696E341C1B5F130011E856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crotalus-iOS";
+			productName = Crotalus;
+			productReference = 30696E361C1B5F130011E856 /* Crotalus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30696E481C1B5F870011E856 /* Crotalus-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30696E501C1B5F870011E856 /* Build configuration list for PBXNativeTarget "Crotalus-tvOS" */;
+			buildPhases = (
+				30696E491C1B5F870011E856 /* Sources */,
+				30696E4C1C1B5F870011E856 /* Frameworks */,
+				30696E4D1C1B5F870011E856 /* Headers */,
+				30696E4F1C1B5F870011E856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crotalus-tvOS";
+			productName = Crotalus;
+			productReference = 30696E531C1B5F870011E856 /* Crotalus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30696E2D1C1B5F130011E856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Draveness;
+				TargetAttributes = {
+					30696E351C1B5F130011E856 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 30696E301C1B5F130011E856 /* Build configuration list for PBXProject "Crotalus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30696E2C1C1B5F130011E856;
+			productRefGroup = 30696E371C1B5F130011E856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30696E351C1B5F130011E856 /* Crotalus-iOS */,
+				30696E481C1B5F870011E856 /* Crotalus-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30696E341C1B5F130011E856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30696E4F1C1B5F870011E856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30696E311C1B5F130011E856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30696E461C1B5F480011E856 /* Crotalus.swift in Sources */,
+				30696E471C1B5F480011E856 /* String+Crotalus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30696E491C1B5F870011E856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30696E4A1C1B5F870011E856 /* Crotalus.swift in Sources */,
+				30696E4B1C1B5F870011E856 /* String+Crotalus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30696E3C1C1B5F130011E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30696E3D1C1B5F130011E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30696E3F1C1B5F130011E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Crotalus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.draveness.Crotalus;
+				PRODUCT_NAME = Crotalus;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		30696E401C1B5F130011E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Crotalus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.draveness.Crotalus;
+				PRODUCT_NAME = Crotalus;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		30696E511C1B5F870011E856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.draveness.Crotalus;
+				PRODUCT_NAME = Crotalus;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		30696E521C1B5F870011E856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.draveness.Crotalus;
+				PRODUCT_NAME = Crotalus;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30696E301C1B5F130011E856 /* Build configuration list for PBXProject "Crotalus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30696E3C1C1B5F130011E856 /* Debug */,
+				30696E3D1C1B5F130011E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30696E3E1C1B5F130011E856 /* Build configuration list for PBXNativeTarget "Crotalus-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30696E3F1C1B5F130011E856 /* Debug */,
+				30696E401C1B5F130011E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30696E501C1B5F870011E856 /* Build configuration list for PBXNativeTarget "Crotalus-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30696E511C1B5F870011E856 /* Debug */,
+				30696E521C1B5F870011E856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30696E2D1C1B5F130011E856 /* Project object */;
+}
